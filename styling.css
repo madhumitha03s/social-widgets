@@ -1,0 +1,60 @@
+/* add font family, background image */
+body {
+    background: url("bg-img.jpg") center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: Arvo, serif;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background-color: transparent;
+    margin: 0;
+    padding: 10%;
+    color: navy;
+}
+
+.jumbotron h1{
+    letter-spacing: 2.5px; 
+    font-weight: bold;  
+}
+
+.jumbotron h1, .jumbotron p {
+    text-align: center;
+}
+
+.form-horizontal {
+    margin: 50px 0 50px 0;
+}
+
+.form-group {
+    margin: 10px 0 10px 0;
+    text-align: center;    
+}
+
+#email {
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+.row {
+    margin-top: 30px;
+}
+
+.col-sm-4 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#twitter-timeline {    
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #fff;    
+    background-color: #fff;
+    margin: 5px 45% 5px 45%;        
+}
+
+.twitter-timeline {
+    text-decoration: none;
+    color: navy;
+}
